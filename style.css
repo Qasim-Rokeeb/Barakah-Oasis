@@ -19,7 +19,7 @@
 }
 body{
     color: #56321C;
-    background-color: #FFF8E1;
+    background-color: #FFF; /*#FFF8E1*/
 }
 header{
     display: flex;
@@ -539,9 +539,7 @@ footer p{
         align-items: center;
         justify-content: space-between;
     }
-    .contact h2{
-        font-size: 20px;
-    }
+
     .mes{
         font-size: 35px;
     }
@@ -550,10 +548,17 @@ footer p{
     }
     input{
         font-size: 20px;
+        display: block;
+        width: 100%;
     }
     textarea{
         font-size: 20px;
     }
+}
+@media (max-width:400px){
+     .contact{
+        grid-template-columns: 1fr;
+     }
 }
 
 
