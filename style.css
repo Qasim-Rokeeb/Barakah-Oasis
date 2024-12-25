@@ -183,12 +183,14 @@ span{
     font-size: 16px;
     font-weight: 400;
     margin-top: 25px;
+    color: #000;
 }
 .about h2{
     font-weight: 600;
     position: relative;
     font-size: var(--h2-font);
     margin: 25px 0;
+    color: #000;
 }
 .about h2::after{
     content: "";
@@ -198,6 +200,7 @@ span{
     left: 0;
     bottom: -6px;
     height: 3px;
+    
 }
 .about .p3{
    margin-top: 20px;
@@ -279,6 +282,8 @@ span{
 }
 .box h3{
     font-size: 20px;
+    color: #000;
+    font-weight: 600;
 }
 .box .p5{
     font-weight: 400;
@@ -348,16 +353,17 @@ span{
 .email p{
     text-align: center;
     font-size: 25px;
-    margin-top: 10px;
+    margin-top: 70px;
 }
 .email h1{
-    margin: 10px 0;
+    margin: 15px 0;
     text-align: center;
+    color: #000;
 }
 input{
     padding: 10px 15px;
     width: 40%;
-    border-radius: 15px;
+    border-radius: 20px;
     border: none;
     margin: 15px 8px;
     background: #f0eeee;
@@ -398,7 +404,7 @@ textarea{
 .contact h2{
     font-size: 28px;
     font-weight: 600;
-
+    margin-top: 30px;
 }
 .contact a{
     text-decoration: none;
@@ -424,9 +430,10 @@ textarea{
 }
 footer p{
    text-align: center;
-   font-size: 18px;
-   font-weight: 600;
+   font-size: 16px;
+   font-weight: 400;
    margin: 10px 0;
+   color: #000;
 }
 @media (max-width:1350px){
    :root{
@@ -524,8 +531,29 @@ footer p{
         font-size: 16px;
     }
     footer p{
-        font-size: 15px;
+        font-size: 12px;
+        font-weight: 400;
     } 
+    .contact{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        justify-content: space-between;
+    }
+    .contact h2{
+        font-size: 20px;
+    }
+    .mes{
+        font-size: 35px;
+    }
+    .m-img img{
+        width: 250px;
+    }
+    input{
+        font-size: 20px;
+    }
+    textarea{
+        font-size: 20px;
+    }
 }
 
 
