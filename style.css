@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 	text-decoration: none;
     list-style: none;	
-    font-family: "Roboto", serif;
+    font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
 
 }
@@ -46,7 +46,7 @@ header{
     font-size: 14px;
     margin: 0 15px;
     font-weight: 600;
-    color: var(--vis-color);
+    color: #292929;;
     padding: 5px;
     display: inline-block;
 }
@@ -58,7 +58,7 @@ header{
     position: absolute;
     width: 0;
     height: 3px;
-    background-color: var(--vis-color);
+    background-color: #292929;
     left: 0;
     bottom: -10px;
     transition: all .50s ease;
@@ -70,15 +70,19 @@ header{
 .btn{
     display: inline-block;
     padding: 10px 15px;
-    background-color: #56321C;
+    background-color: #292929;
     color: #fff;
     font-weight: 24px;
     cursor: pointer;
     font-weight: 900;
     font-size: 22px;
+    border: 2px solid transparent;
+    transition: all .50s ease;
 }
 .btn:hover{
-    background-color: var(--btn1-color);
+    background-color: transparent;
+    border: 2px solid #292929;
+    color: #292929;
 }
 .home{
     display: flex;
@@ -95,6 +99,7 @@ header{
     display: inline-block;
 }
 .home-text h1{
+    font-family: "Inika", serif;
     font-size: var(--h1-font);
     color: #fff;
     margin-top: 35px;
@@ -166,6 +171,8 @@ section{
     justify-content: space-between;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+    background-color: #ffffff;
+    color: #56321C;
 }
 .about span{
     font-weight: 900;
@@ -192,6 +199,7 @@ span{
     font-size: var(--h2-font);
     margin: 25px 0;
     color: #000;
+    font-family: "Inika", serif;
 }
 .about h2::after{
     content: "";
@@ -234,7 +242,7 @@ span{
     width: 300px;
 }
 .vis{
-    background: var(--btn-color);
+    background: #292929;
     color: #fff;
     text-align: center;
     width: 100%;
@@ -264,6 +272,7 @@ span{
     text-align: center;
     font-size: var(--h2-font);
     margin-top: 80px;
+    font-family: "Inika", serif;
 }
 .box img{
     max-width: 300px;
@@ -319,7 +328,7 @@ span{
     font-weight: 600;
 }
 .story{
-    background-color: #A75f37;
+    background-color: #56321C;
     color: #fff;
 }
 .stories{
@@ -348,93 +357,83 @@ span{
     background: #56321C;
     transform: scale(1.08);
 }
-.email{
-    padding: 10% auto;
-}
-.email p{
-    text-align: center;
-    font-size: 25px;
-    margin-top: 70px;
-}
-.email h1{
-    margin: 15px 0;
-    text-align: center;
-    color: #000;
-}
-input{
-    padding: 10px 15px;
-    width: 40%;
-    border-radius: 20px;
-    border: none;
-    margin: 15px 8px;
-    background: #f0eeee;
-    font-size: 18px;
-    color: #000;
-}
-.wide{
-    width: 100%;
-}
-textarea{
-    width: 100%;
-    height: 200px;
-    display: block;
-    border-radius: 20px;
-    background: #f5f2f2;
-    padding: 10px 15px;
-}
-.btn-send{
-    width: 100%;
-    text-align: center;
-    background: var(--vis-color);
-    font-size: 20px;
-    padding: 10px 20px;
-    color: #fff;
-    border-radius: 25px;
-    margin: 15px auto;
-    display: inline-block;
-}
 .contact{
-    background: var(--vis-color);
+    background-color: #292929;
     color: #fff;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1fr);
+    justify-content: center;
     align-items: center;
-    justify-content: flex-start;
-    gap: 3rem;
+    gap: .2rem;
 }
-.contact h2{
-    font-size: 28px;
-    font-weight: 600;
+.contact h1{
+    font-family: "Inika", serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align:  center;
     margin-top: 30px;
 }
-.contact a{
-    text-decoration: none;
-    font-weight: 400;
+.socials{ 
+    margin: 20px 0;
+    text-align: center;
+}
+
+
+
+.contact-text p{
+    font-size: 12px;
+    text-align: center;
+}
+.contact img{
+    width: 200px;
+}
+.contact .socials i{
+  cursor: pointer;
+  font-size: 16px;
+  padding: 6px;
+  background-color: #fff;
+  color: black;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: all .50s ease;
+}
+.socials i:hover{
+  color: #fff;
+  background-color: #e2c0ae;
+}
+.contact .fill{
+    background-color: var(--other-color);
     color: #fff;
-    font-size: 16px;
-    margin: 6px 0;
-    display: inline-block;
-    transition: all .50s ease-out;
 }
-.contact a:hover{
-    transform: translateY(-5px);
-    color: #9e9c9c;
-}
-.contact p{
-    font-weight: 400;
-    font-size: 16px;
-    margin: 6px 0;
+.contact input{
+    width: 100%;
     display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 20px;
 }
-.contact .links2{
-    margin-bottom: 40px;
+.contact textarea{
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border-radius: 20px;
 }
-footer p{
-   text-align: center;
-   font-size: 16px;
-   font-weight: 400;
-   margin: 10px 0;
-   color: #000;
+.contact .contact-btn{
+    font-size: 16px;
+    width: 100%;
+    font-weight: 600;
+    color: #000;
+    padding: 10px 90px;
+    border-radius: 15px;
+    background: #f19965;
+    margin: 15px 0;
+    display: inline-block;
+    text-align: center;
+    transition: all .50s ease-in;
 }
 @media (max-width:1350px){
    :root{
@@ -551,9 +550,12 @@ footer p{
         font-weight: 400;
     } 
     .contact{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: 1fr;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+    }
+    .contact-text{
+        order: 2;
     }
 
     .mes{
@@ -571,11 +573,7 @@ footer p{
         font-size: 20px;
     }
 }
-@media (max-width:400px){
-     .contact{
-        grid-template-columns: 1fr;
-     }
-}
+
 
 
 
