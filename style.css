@@ -480,7 +480,7 @@ footer p{
         align-items: center;
         position: absolute;
         top: 0;
-        right: 0;
+        right: -100%;
         width: 100%;
         height: 100vh;
         transition: all .50s ease;
