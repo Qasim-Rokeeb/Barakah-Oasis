@@ -430,6 +430,7 @@ span{
     padding: 10px 90px;
     border-radius: 15px;
     background: #000;
+    border: 2px solid #fff;
     margin: 15px 0;
     display: inline-block;
     text-align: center;
