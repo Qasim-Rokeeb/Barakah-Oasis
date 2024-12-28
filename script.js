@@ -58,8 +58,8 @@ document.addEventListener("DOMContentLoaded", () => {
     tab2: [
       {
         img: "techie.png",
-        title: "Nurture A Muslim Techie",
-        text: "<span>Nurture A Muslim Techie</span> provides laptops, mentorship, and job placement for Muslims entering tech.",
+        title: "Nurture A Muslim Techie/Entrepreneur",
+        text: "<span>Nurture A Muslim Techie</span> provides laptops, mentorship, and job placement for Muslims transitioning into tech/launching a startup.",
         aim: "NA",
         status: "Upcoming",
         link: "#",
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
       {
         img: "orphan.png",
         title: "Educate An Orphan",
-        text: "<span>Educate An Orphan</span> offers educational aid for orphans, including school fees and hostel payments.",
+        text: "<span>Educate An Orphan</span> provides vital educational support to orphaned children such as school fees and hostel accommodations, empowering them to reach their full potential.",
         aim: "NA",
         status: "Upcoming",
         link: "#",
