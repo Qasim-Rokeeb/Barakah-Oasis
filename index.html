@@ -128,12 +128,17 @@
         </section>
         <section class="contact" id="contact">
           <h1>Contact Us</h1>
-        <form class="forms" action="https://formspree.io/f/xbllydll" method="POST">
-          <input type="text" name="name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="Email" required>
-          <textarea name="message" placeholder="Your Message..." required></textarea>
-          <button class="contact-btn" type="submit">Send Message</button>
-      </form>
+          <form class="forms" name="contact" method="POST" data-netlify="true">
+            <!-- Hidden input to identify the form -->
+            <input type="hidden" name="form-name" value="contact">
+          
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Your Message..." required></textarea>
+            
+            <button class="contact-btn" type="submit">Send Message</button>
+          </form>
+          
       
           <div class="contact-text"> 
              <img src="contact1.png" alt="">
