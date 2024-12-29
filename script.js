@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
         text: `<span>iCareForElderly</span> provides  basic amenities, food, and loan offsetting for elders in the society.`,
         aim: "1.5M",
         status: "Ongoing",
-        link: "#",
+        link: "https://dynaraise.com/elderly-care-ramadan-46",
       },
       {
         img: "feeds.png",
