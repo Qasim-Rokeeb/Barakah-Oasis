@@ -1,16 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
+    <url>
+        <loc>https://barakahoasis.netlify.app/</loc>
+        <lastmod>2025-01-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
 
+    <!-- About Section -->
+    <url>
+        <loc>https://barakahoasis.netlify.app/#about</loc>
+        <lastmod>2025-01-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 
-<url>
-  <loc>https://barakahoasis.netlify.app/</loc>
-  <lastmod>2025-01-03T08:01:16+00:00</lastmod>
-</url>
+    <!-- Our Causes -->
+    <url>
+        <loc>https://barakahoasis.netlify.app/#causes</loc>
+        <lastmod>2025-01-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 
+    <!-- Our Story -->
+    <url>
+        <loc>https://barakahoasis.netlify.app/#story</loc>
+        <lastmod>2025-01-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
+    <!-- Contact Us -->
+    <url>
+        <loc>https://barakahoasis.netlify.app/#contact</loc>
+        <lastmod>2025-01-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Donate Now -->
+    <url>
+        <loc>https://dynaraise.com/elderly-care-ramadan-46</loc>
+        <lastmod>2025-01-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Become a Member -->
+    <url>
+        <loc>https://surveyheart.com/form/67641d9c2505a317f8fe8d5d</loc>
+        <lastmod>2025-01-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
 </urlset>
